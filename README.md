@@ -1,21 +1,17 @@
 # RockCatMLLambda
 # Zero administration inference with AWS Lambda for :hugs:
 
-## Checks
+## Learning Notes
 - Decode need to set as utf-8 due to some output errors
 - Need to set CORS for any origins
 - Typescript have to decipher the text as utf-8 for api calls.
 - Typescript can only accept '\\n' instead of '\n' need check formatting.
 
-### Note: This is not production code and simply meant as a demo
-
-[Hugging Face](https://huggingface.co/) Transformers is a popular
-open-source project that provides pre-trained, natural language
-processing (NLP) models for a wide variety of use cases. Customers with
-minimal machine learning experience can use pre-trained models to
-enhance their applications quickly using NLP. This includes tasks such
-as text classification, language translation, summarization, and
-question answering - to name a few.
+### Checklist
+- [x] Set up GLUE Task
+- [x] Prompt Engineering based on demands
+- [x] Deploy Docker image onto AWS through AWS CDK script to automatically provision container 
+- [x] Open up html api endpoint for call
 
 ## Overview
 
